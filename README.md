@@ -29,8 +29,7 @@ Each experiment is provided as a Google Colab notebook **and** as an equivalent 
 └── README.md
 ```
 
-> Both datasets live in [`data/`](data/README.md). The keystroke file is behavioural biometric data — see [Privacy](#privacy-and-data-handling).
-
+> Both datasets live in [`data/`](data/README.md).
 ## Methodology
 
 Both experiments follow the same protocol so results are comparable and free of data leakage:
@@ -118,7 +117,3 @@ Keystroke timing is behavioural biometric data.
 ## Requirements
 
 Python 3.10+ and the packages in `requirements.txt` (scikit-learn, XGBoost, pandas, NumPy, matplotlib, joblib).
-
-## Author
-
-By [Ruchika-choudhary8](https://github.com/Ruchika-choudhary8).
